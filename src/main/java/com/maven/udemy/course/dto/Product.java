@@ -4,7 +4,7 @@ public class Product {
 	private int id;
 	private String name;
 	private String description;
-	private int price;
+	private double price;
 	
 	public int getId() {
 		return id;
@@ -34,7 +34,7 @@ public class Product {
 		return price;
 	}
 
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 	

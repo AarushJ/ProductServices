@@ -17,4 +17,8 @@ public class ProductBOImpl implements ProductBO {
 		return dao.read(id);
 	}
 
+	public void setDao(ProductDAO dao) {
+		this.dao = dao;
+	}
+
 }
